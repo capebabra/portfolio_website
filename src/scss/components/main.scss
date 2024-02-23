@@ -1,0 +1,65 @@
+.main{
+    background-color: black;
+    .main__container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 40px;
+        gap: 10px;
+        .container-heading{
+            .heading{
+                font-size: 62px;
+                font-family: Montserrat;
+                font-family: 600;
+                color: white;
+            }
+        }
+        .container-subheading{
+            display: flex;
+            gap: 20px;
+            padding-bottom: 20px;
+            .subheading{
+                color: white;
+                font-size: 16px;
+                font-family: Poppins;
+                font-family: 200;
+            }
+        }
+        .container-content {
+            width: 450px;
+      
+            &::before {
+              content: '';
+              position: absolute;
+              top: 220px;
+              left: 0;
+              width: 350px;
+              height: 1px;
+              margin-left: 40px;
+              background-color: #808080; /* Цвет линии */
+              margin-top: 10px; /* Отступ от .container-subheading */
+            }
+      
+            .content {
+              color: white;
+              font-size: 18px;
+              font-family: Kode;
+              font-family: 400;
+            } 
+        }
+        .container-CV{
+            margin-top: 40px;
+            .CV{
+                font-size: 22px;
+                font-family: Code;
+                font-weight: 400;
+                color: rgb(235, 227, 227);
+                padding: 10px 20px;
+                background-color: rgb(202, 133, 69);
+                border-radius: 5px;
+                &:hover{
+                    background-color: rgb(212, 154, 100);
+                }
+            }
+        }
+    }
+}

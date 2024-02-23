@@ -1,0 +1,48 @@
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: #000;
+    .header__container{
+        display: flex;
+        justify-content: space-between;
+        padding:30px 40px;
+        gap: 20px;
+        align-items: center;
+        .header__logo{
+            .logo{
+                font-family: Dancing;
+                font-size: 26px;
+                color: #aeadad;
+                font-weight: 600;
+            }
+        }
+        .header__navigation{
+            display: flex;
+            gap: 20px;
+            .navigation{
+                font-family: Code;
+                font-size: 20px;
+                color: #aeadad;
+                font-weight: 400;
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+        .header__controls{
+            display: flex;
+            gap: 10px;
+            .controls{
+                font-family: Poppins;
+                font-weight: 400;
+                color: #aeadad;
+                font-size: 20px;
+                &:hover{
+                    color: white;
+                }
+            }
+
+        }
+    }
+}

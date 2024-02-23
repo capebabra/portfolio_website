@@ -1,0 +1,22 @@
+.footer{
+    background-color: black;
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 20px 40px;
+        .container__smth{
+            margin-top: 100px;
+            color: #aeadad;
+            font-family: Kode;
+            font-weight: 400;
+            font-size: 10px;
+        }
+        .container__afterwords{
+            color: #aeadad;
+            font-size: 12px;
+            font-family: Code;
+            font-weight: 200;
+        }
+    }
+}
